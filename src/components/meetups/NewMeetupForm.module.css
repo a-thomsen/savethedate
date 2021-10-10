@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.form {
+  padding: 1rem;
+  font: 'Oswald', sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+  letter-spacing: 0.12em;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.control input,
+.control textarea {
+  display: block;
+  font: inherit;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+  width: 100%;
+}
+
+.actions {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.actions button {
+  font: 'Oswald', sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  cursor: pointer;
+  background-color: #748cab;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #748cab;
+  border-radius: 2px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #748cab;
+  border-color: #748cab;
+}
